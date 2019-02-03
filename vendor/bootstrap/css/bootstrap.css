@@ -152,13 +152,11 @@ sup {
 }
 
 a {
-  color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -2420,13 +2418,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #3C1313;
   border-color: #007bff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
+  background-color: #3C1313;
   border-color: #0062cc;
 }
 
@@ -4080,10 +4078,12 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #6c757d;
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  color: red;
 }
 
 .nav-link.disabled {
@@ -4098,12 +4098,14 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  color: #6c757d;
 }
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+  color: #6c757d;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -4136,7 +4138,6 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
 }
 
 .nav-fill .nav-item {
@@ -4213,6 +4214,7 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  
 }
 
 .navbar-nav .dropdown-menu {
@@ -5006,12 +5008,12 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #3C1313;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #0062cc;
+  background-color: #3C1313;
 }
 
 .badge-secondary {

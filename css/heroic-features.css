@@ -11,3 +11,17 @@ img {
   max-width: 200px;
   height: 50px;
 }
+
+span{
+  margin-right: 50px;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+nav a{
+  display: inline-block;
+  padding: 5px;
+}
+
